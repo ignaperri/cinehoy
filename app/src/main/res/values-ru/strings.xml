@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Кино сегодня</string>
+    <string name="app_name_format">Кино сегодня</string>
+    <string name="title_toprated">верхний</string>
+    <string name="title_popular">Популярный</string>
+    <string name="title_upcoming">Скоро будет</string>
+</resources>

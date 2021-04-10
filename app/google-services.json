@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "584388678757",
+    "firebase_url": "https://cinehoy-f4fea.firebaseio.com",
+    "project_id": "cinehoy-f4fea",
+    "storage_bucket": "cinehoy-f4fea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584388678757:android:0c3f74d28c8ded7f49e28c",
+        "android_client_info": {
+          "package_name": "com.nachomp.cinehoy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584388678757-rfbubbh6nm4p755bl45kf33it8n6cob5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nachomp.cinehoy",
+            "certificate_hash": "159554c3b6d7c98b5dbc55713bce62dd585fc5a5"
+          }
+        },
+        {
+          "client_id": "584388678757-043hbadk5c382d6h9g3dc3qb611s3lhb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWjfamyZwN7HPEBU53Jdt2OWQ-YyghgfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584388678757-043hbadk5c382d6h9g3dc3qb611s3lhb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

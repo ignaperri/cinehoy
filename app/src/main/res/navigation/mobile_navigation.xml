@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_popular">
+
+
+    <fragment
+        android:id="@+id/navigation_popular"
+        android:name="com.nachomp.cinehoy.ui.popular.PopularFragment"
+        android:label="@string/title_popular"
+        tools:layout="@layout/fragment_popular" >
+        <action
+            android:id="@+id/action_navigation_popular_to_navigation_toprated"
+            app:destination="@id/navigation_toprated" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_toprated"
+        android:name="com.nachomp.cinehoy.ui.toprated.TopRatedFragment"
+        android:label="@string/title_toprated"
+        tools:layout="@layout/fragment_toprated" >
+        <action
+            android:id="@+id/action_navigation_toprated_to_navigation_upcoming"
+            app:destination="@id/navigation_upcoming" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_upcoming"
+        android:name="com.nachomp.cinehoy.ui.upcoming.UpComingFragment"
+        android:label="@string/title_upcoming"
+        tools:layout="@layout/fragment_upcoming" />
+</navigation>

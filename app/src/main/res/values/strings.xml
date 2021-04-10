@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cine Hoy</string>
+    <string name="app_name_format">Cine Hoy</string>
+    <string name="title_toprated">Top</string>
+    <string name="title_popular">Popular</string>
+    <string name="title_upcoming">Próximamente</string>
+</resources>
